@@ -1,0 +1,80 @@
+//COLORS
+$white: #ffffff;
+$black: #000000;
+
+$gray-100: #f9f9f9;
+$gray-200: #222222;
+$gray-300: #333333;
+$gray-400: #444444;
+$gray-500: #555555;
+$gray-5B: #5b5b5b;
+$gray-600: #666666;
+$gray-700: #777777;
+$gray-7E: #7e7e7e;
+$gray-800: #888888;
+$gray-900: #999999;
+
+$gray-1000: #aaaaaa;
+$gray-1100: #d3d3d3;
+$gray-1200: #d9d9d9;
+$gray-1300: #ececec;
+$gray-1400: #f1f1f1;
+$gray-1500: #f4f4f4;
+$gray-1600: #f2f2f2;
+$gray-1700: #f3f3f3;
+$gray-1800: #f8f8f8;
+$gray-1900: #f9f9f9;
+
+$blue: #2196f3;
+$darkblue:#283878;
+$indigo: #673ab7;
+$purple: #6c63ff;
+$pink: #e00c54;
+$red: #f44336;
+$rose: #a84849;
+$orange: #ff9900;
+$yellow: #ffc107;
+$green: #4caf50;
+$teal: #16b987;
+$cyan: #17a2b8;
+
+$primary: #0077ff;
+$secondary: #00e7ff;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
+
+// -------------------------Links
+$link-color: $primary !default;
+$link-decoration: none !default;
+$link-hover-color: darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
+
+// -------------------------Breakpoints
+$mobile-width: 425px;
+$tablet-width: 768px;
+$laptop-width: 992px;
+$desktop-width: 1200px;
+
+// -------------------------Border radius
+$border-radius: 0.25rem !default;
+$border-radius-lg: 0.3rem !default;
+$border-radius-sm: 0.2rem !default;
+
+// ------------------------- Shadow
+$box-shadow-sm: 0 0.125rem 0.25rem rgba($black, 0.075) !default;
+$box-shadow: 0 0.5rem 1rem rgba($black, 0.15) !default;
+$box-shadow-lg: 0 1rem 3rem rgba($black, 0.175) !default;
+
+// ------------------------- Typography
+
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+$h1-size: $font-size-base * 2.5 !default;
+$h2-size: $font-size-base * 2 !default;
+$h3-size: $font-size-base * 1.75 !default;
+$h4-size: $font-size-base * 1.5 !default;
+$h5-size: $font-size-base * 1.25 !default;
+$h6-size: $font-size-base !default;
