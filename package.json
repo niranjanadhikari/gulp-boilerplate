@@ -4,7 +4,10 @@
   "description": "Simple gulp boilerplate for static html sites",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "upload-prod": "surge --project ./dist --domain <domain name here>.surge.sh",
+    "start": "gulp watch",
+    "run-prod": "live-server ./dist",
+    "build-up": "gulp build && yarn upload-prod"
   },
   "author": "Niranjan Adhikari",
   "license": "ISC",
