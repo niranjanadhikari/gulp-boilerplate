@@ -8,8 +8,9 @@ This is a fairly simple gulp project with gulp 3.9.1 the gulp has changed from v
 
 - clone the project
 - run Yarn or npm i command to install dependencies
+- configure surge, add domain name in package json (search for <domain name here>)
 - run gulp watch command
-- start exploring 
+- start exploring
 
 ## Dependecies
 
