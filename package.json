@@ -30,6 +30,11 @@
     "gulp-terser": "^2.0.1",
     "sass": "^1.35.1"
   },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./dist --domain <domain name here>.surge.sh"
+    }
+  },
   "resolutions": {
     "graceful-fs": "^4.2.4"
   }
